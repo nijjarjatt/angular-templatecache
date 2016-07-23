@@ -9,6 +9,6 @@ export class AppCtrl implements IAppCtrl{
 
 	constructor(private $templateCache: ng.ITemplateCacheService){
 		this.message = 'Message';
-		console.log($templateCache.get('./views/home.html'));
+		console.log($templateCache.get('test.html'));
 	}
 }

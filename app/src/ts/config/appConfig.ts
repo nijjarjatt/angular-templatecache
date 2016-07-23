@@ -9,7 +9,7 @@ export function appConfig($stateProvider: ng.ui.IStateProvider,
         url: '/',
         controller: controllers.AppCtrl,
         controllerAs: 'ac',
-        templateUrl: './views/home.html'
+        templateUrl: 'test.html'
     })
 
     $urlRouterProvider.otherwise("/");

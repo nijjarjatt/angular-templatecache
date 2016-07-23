@@ -3,7 +3,7 @@
 import * as config from "./config";
 import * as controllers from "./controllers";
 
-let app = angular.module('sampleApp', ['ui.router']);
+let app = angular.module('tempCacheApp', ['ui.router']);
 
 app
 

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Angular Auth App</title>
+	<title>Angular TemplateCache App</title>
 	<script type="text/javascript" src="js/angular.js"></script>
 	<script type="text/javascript" src="js/angular-ui-router.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body ng-app="sampleApp">
+<body ng-app="tempCacheApp">
 	<ui-view></ui-view>
+	<script type="text/ng-template" id="test.html">
+		Message: {{ac.message}}
+	</script>
 </body>
 </html>
