@@ -5,9 +5,10 @@ export interface IAppCtrl {
 export class AppCtrl implements IAppCtrl{	
 	message: string;
 
-	static $inject: any[] = [];
+	static $inject: any[] = ['$templateCache'];
 
-	constructor(){
+	constructor(private $templateCache: ng.ITemplateCacheService){
 		this.message = 'Message';
+		console.log($templateCache.get('./views/home.html'));
 	}
 }
