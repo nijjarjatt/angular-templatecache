@@ -8,5 +8,6 @@ let app = angular.module('tempCacheApp', ['ui.router']);
 app
 
 .config(config.appConfig)
+.run(config.appRun)
 .controller('appCtrl', controllers.AppCtrl);
 
